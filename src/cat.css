@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    margin: 0.2,0.4rem;
+    padding: 0.1rem;
+}
+.contact{
+    position: absolute;
+    margin-left: -34rem;
+    margin-top: 0.9rem;
+}
+
+.contactphone{
+    display: flex;
+}
+.cabox{
+    display: grid;
+    grid-template-columns: repeat(3,23%);
+    grid-auto-rows: minmax(60rem,auto);
+    grid-gap: 3rem;
+    justify-content: center;
+}
+.secondone{
+    position: absolute;
+    top: -12rem;
+    text-align: center;
+    margin-right: -42rem;
+    color: navy;
+}
+.second{
+    margin-top: 9rem;
+    margin-bottom: 25rem;
+    margin-left: 7rem;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+.catset{
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 0 0.5rem;
+    margin-top: -19rem;
+    padding: 2rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    align-items: flex-end;
+    height: 37rem;
+    border: 0.2rem solid palevioletred;
+    position: relative;
+    transition: 0.9s ease-in-out;
+}
+.catset:hover{
+    transform: translateY(2rem);
+}
+#navb{
+    display: flex;
+    height: 3.5rem;
+    background-color: whitesmoke;
+    margin: 0rem;
+    padding: 0.1rem;
+}
+#navb img{
+    height: 4.3rem;
+    width:6.7rem;
+    position: absolute;
+    margin-left: 0.8rem;
+}
+#navb h2{
+    color: #E75480;
+    margin-left: 9.4rem;
+}
+.catshop:hover{
+    background-color: pink;
+}
+
+.catshop{
+    color: black;
+    margin-left:55rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    width: 5.6rem;
+    position: relative;
+    border: 0.3rem solid pink;
+    border-radius: 0.6rem;
+}
+.firstclass{
+    display: flex;
+    background-color: #E75480 ;
+    height: 2.4rem;
+}
+.firstclass h4{
+    color: white;
+    top: -1rem;
+    position: absolute;
+    left: 40%;
+}
+.catfirst{
+    color: black;
+    margin-left:100rem;
+    height: 3rem;
+    position: absolute;
+    margin-top: 0.7rem;
+    width: 8rem;
+    border: 0.3rem solid rgb(172, 147, 151);
+    border-radius: 0.6rem;
+}
+.catfirst:hover{
+    background-color: pink;
+}
+.secondclass{
+    display: flex;
+}
+.secondclass img{
+    top: 1rem;
+    bottom: 0;
+    width: 82rem;
+    height: 38rem;
+    opacity: 0.3;
+}
+.navbutton{
+    display: flex;
+}
+.navbutton button{
+    margin-top: 0.2rem;
+    height: 2.4rem;
+    width: 5.2rem;
+    border-radius: 3rem;
+}
+.navhome{
+    margin-left: 36rem;
+    margin-right: 4rem;
+}
+.navhome:hover{
+    background-color: lightpink;
+}
+.navlog:hover{
+    background-color: lightpink;
+}
+.secondclass h1{
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: -2rem;
+    left: 6rem;
+    color:solid rgb(8, 7, 7);
+    font-size: 4rem;
+    text-decoration-line:underline;
+}
+.secondclass h3{
+    color: #f5074e;
+    margin-top: 20rem;
+    margin-left: 4rem;
+    font-family:cursive;
+    font-size: 1.7rem;
+    position: absolute;
+    left: 0.6rem;
+}
+.para{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-break:loose;
+    margin-left: 0.7rem;
+}
+.third{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.firstfoot{
+    top: -1.4rem;
+    height: 13rem;
+    position: relative;
+    background-color: darkblue;
+}
+.firstfoot h1{
+    color: white;
+    text-align: center;
+}
+.firstfoot h3{
+    color: white;
+    text-align: center;
+    height: 14rem;
+}
+.secondfoot{
+    background-color: rgb(5, 5, 31);
+    margin-top: -7rem;
+}
+.secondfoot h2{
+    color: white;
+    text-align: center;
+    height: 3rem;
+    margin: 1rem;
+    top: 2.2rem;
+}
+.catlast{
+    margin-top: -38rem;
+    box-sizing: border-box;
+    height: 35rem;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 1.4rem;
+    box-shadow: 0 0 0.5rem;
+}
+.catlast h1{
+    color: blue;
+}
+.formdata{
+    box-sizing: border-box;
+    height: 21rem;
+    position: relative;
+    margin-left: 35%;
+    width: 28rem;
+    top: 7rem;
+    box-shadow: 0.3rem 0.5rem 1rem palevioletred;
+}
+.logi{
+    text-align: center;
+}
+.firstlogi{
+    margin-top: 2rem;
+    text-align: center;
+}
+.secondlogi{
+    margin-top: 2rem;
+    text-align: center;
+}
+input[type=password]{
+        padding: 0.3rem 1.3rem;
+        box-sizing: border-box;
+}
+    
+.firstname{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.moblogi{
+    margin-top: 0.8rem;
+    margin-left: 6rem;  
+}
+
+input[type=text]{
+    padding: 0.2rem 1rem;
+    box-sizing: border-box;
+}
+.colorform{
+    height: 39.7rem;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.whatsapp{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    left: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
